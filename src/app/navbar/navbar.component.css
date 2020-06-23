@@ -1,0 +1,10 @@
+.name-head{
+    text-transform: none;
+    color: #222222;
+    font-family: 'Poppins';
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.navbar{
+    background: #ffffff;
+}

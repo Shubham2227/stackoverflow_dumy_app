@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: #222222;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+.make-down{
+    margin-top:35px;
+}
+.card-body{
+    background: #0f0f0f;
+}
+.pulls-right{
+    float: right;
+}

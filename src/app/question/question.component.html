@@ -1,0 +1,41 @@
+<div class="row justify-content-center make-down">
+    <div class="col-lg-10">
+      <div class="card bg-secondary shadow border-0">
+        <div class="card-body px-lg-5 py-lg-5">
+          <div class="text-center text-muted mb-4">
+            <h2 class="name-here">Stack Overflow Dummy</h2>
+          </div>
+            <div class="question-container">
+                <div class="question-box">
+                    <div class="question">
+                        <table class="table-design">
+                            <tr>
+                                <td class="head-question">1. {{question}}</td>
+                                <td><button class="btn btn-github btn-sm pulls-right" (click)="go_to_back()">Back</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="bottom-question-layer">Asked by: @shubham   |   Asked: 1 month Ago  |   Likes : 123 |   Solutions:  11  |   Tags: Programming, Coding</div>
+                    <div class="question-description">
+                        <p [innerHTML]="description"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="solution-container">
+                <div class="solution-box" *ngFor="let answer of curr_answer;let idx=index">
+                    <div class="solution">
+                        <table class="table-design">
+                            <tr>
+                                <td class="head-solution">{{answer['solution']}}</td>
+                            </tr>
+                            <tr>
+                                <span class="votes_show">{{answer['votes']}} likes</span>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>

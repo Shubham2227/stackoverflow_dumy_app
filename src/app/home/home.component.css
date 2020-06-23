@@ -1,0 +1,19 @@
+.name-here{
+    color:white;
+}
+.question-container{
+    color:white;
+    font-family: 'Arial';
+}
+.bottom-question-layer{
+    font-size: 0.7rem;
+}
+.question-box{
+    background: #636e72;
+    padding:20px;
+    border-radius: 3px;
+    margin-top:25px;
+}
+.table-design{
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+.highlight{
+    margin-top: 25px;
+}
+.name-here{
+    color:white;
+}
+input,span{
+    background: #1a1a1a;
+    color:white;
+}
+input:focus{
+    background: #1a1a1a;
+    color:white;
+}
